@@ -1,0 +1,18 @@
+{
+  "name": "ts-research",
+  "version": "1.0.0",
+  "description": "xi typescript research",
+  "main": "index.js",
+  "repository": "https://github.com/xikakera/xi-research/tree/master/typescript",
+  "author": "xikakera@gmail.com",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "run": "node index.js",
+    "watch": "tsc -w -p ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.4"
+  }
+}
