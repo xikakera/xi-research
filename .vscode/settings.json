@@ -1,0 +1,21 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    // 不搜索有 .ts 文件的 .js 文件
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    // 隐藏有 .ts 文件的 .js 文件
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+  }
+}
